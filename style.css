@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgBackground {
+    background-image: url("images/coolImg.jpg");
+    min-width: 35%;
+}
+
+.contentContainer {
+    background-color: lightgrey;
+    min-width: 75%;
+    height: 100vh;
+}
